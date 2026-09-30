@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Digital Shop Operations: private owner-shop integration in development.">
+<title>Digital Shop Operations — Project information</title>
+<style>
+* { box-sizing: border-box; }
+body { margin: 0; background: #f1f5f9; color: #1e293b; font: 1rem/1.65 system-ui, sans-serif; }
+.container { width: min(100% - 2rem, 48rem); margin-inline: auto; }
+header { padding: 3rem 0 2rem; }
+h1, h2 { line-height: 1.25; overflow-wrap: anywhere; }
+h1 { font-size: clamp(1.8rem, 5vw, 2.6rem); }
+h2 { margin-top: 0; font-size: 1.25rem; }
+.status { display: inline-block; padding: .25rem .75rem; border: 1px solid #0f766e; border-radius: .35rem; background: #f0fdfa; color: #115e59; font-weight: 700; }
+section { margin-bottom: 1.25rem; padding: 1.5rem; border: 1px solid #cbd5e1; border-radius: .5rem; background: white; }
+li + li { margin-top: .5rem; }
+footer { padding: .5rem 0 2rem; color: #475569; font-size: .9rem; }
+.skip-link { position: absolute; left: 1rem; top: -6rem; padding: .6rem 1rem; background: white; color: #115e59; }
+.skip-link:focus { top: 1rem; }
+a:focus-visible, main:focus-visible { outline: 3px solid #0f766e; outline-offset: 4px; }
+@media (max-width: 30rem) { header { padding-top: 2rem; } section { padding: 1rem; } }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to project information</a>
+<header class="container">
+<p>Project information</p>
+<h1>Digital Shop Operations</h1>
+<p class="status">In development</p>
+<p>A planned private integration for the account owner's own Etsy seller shop. This page describes the project; it is not a working application.</p>
+</header>
+<main id="main" class="container" tabindex="-1">
+<section aria-labelledby="status-heading">
+<h2 id="status-heading">Current status</h2>
+<p>The integration is not functioning, approved by Etsy, or connected to a shop. No customer data is being processed by the app. This page does not connect accounts or provide access to Etsy data.</p>
+</section>
+<section aria-labelledby="scope-heading">
+<h2 id="scope-heading">Intended scope</h2>
+<p>Planned features are limited to the owner's own shop, subject to owner authorization, applicable API permissions, and Etsy's requirements:</p>
+<ul><li>Read shop, listing, and sales data for internal review.</li><li>Prepare or upload/edit listing drafts for the owner's review and approval.</li></ul>
+<p>No automatic publication, pricing changes, or customer communications are planned. This is not a public multi-seller service. There is no public signup or access fee.</p>
+</section>
+<section aria-labelledby="data-heading">
+<h2 id="data-heading">Data and privacy</h2>
+<p>This informational page collects no data itself. It contains no forms, analytics, scripts, or cookies. The hosting provider may log requests.</p>
+<p>OAuth authorization and secure token handling have not been implemented. No credentials are requested or handled by this page. Any future integration will need appropriate authorization and data-handling safeguards before use.</p>
+</section>
+</main>
+<footer class="container">
+<p>Project information only. Not affiliated with or endorsed by Etsy.</p>
+<p>The term 'Etsy' is a trademark of Etsy, Inc. This Application uses Etsy's API, but is not endorsed or certified by Etsy.</p>
+<p>The statement above is Etsy's required notice for the intended integration. API access has not yet been implemented.</p>
+</footer>
+</body>
+</html>
